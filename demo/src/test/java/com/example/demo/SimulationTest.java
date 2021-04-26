@@ -94,7 +94,7 @@ public class SimulationTest extends PowerMockTestCase {
         assertEquals(message.toString(), logsList.get(0).getMessage());
 
         //AND log info should be same as expected
-        assertEquals("Report Traffic", logsList.get(1).getMessage());
+        assertEquals(logsList.get(1).getMessage(), "Report Traffic");
 
     }
 }
